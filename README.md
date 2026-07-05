@@ -2,8 +2,6 @@
 
 A Python implementation of an **LDPC (Low-Density Parity-Check) Encoder and Decoder** built from scratch using **NumPy** and **Matplotlib**, without any external LDPC libraries. The project demonstrates the complete digital communication chain, from encoding to decoding over an AWGN channel.
 
----
-
 ## Features
 
 * LDPC encoding using a parity-check matrix
@@ -27,8 +25,6 @@ LDPC_Project/
 │── README.md
 └── results/
     ├── ber_curve.png
-    ├── encoder_output.png
-    └── decoder_output.png
 ```
 
 ---
@@ -89,20 +85,6 @@ Display the BER curve in the README:
 
 ![BER Curve](results/ber_curve.png)
 ```
-
-You can also add screenshots:
-
-```markdown
-## Encoder Output
-
-![Encoder](results/encoder_output.png)
-
-## Decoder Output
-
-![Decoder](results/decoder_output.png)
-```
-
-To save the BER graph automatically:
 <img width="1366" height="655" alt="BER" src="https://github.com/user-attachments/assets/8046343b-c314-47cd-931e-2174de520dab" />
 
 
